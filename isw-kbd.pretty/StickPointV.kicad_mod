@@ -218,6 +218,7 @@
 	)
 	(fp_text user "VCC"
 		(at 2.496429 7.26 0)
+		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "76f381a8-42f6-4a48-b966-7d19d2043a65")
 		(effects
@@ -230,6 +231,7 @@
 	)
 	(fp_text user "SCL"
 		(at 2.496429 4.72 0)
+		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "bd66b1b2-0f2c-4608-9f63-33e92d438528")
 		(effects
@@ -242,6 +244,7 @@
 	)
 	(fp_text user "GND"
 		(at 2.496429 9.8 0)
+		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d5b7d53a-736b-4956-b7c8-4b427251fac8")
 		(effects
@@ -254,6 +257,7 @@
 	)
 	(fp_text user "SDA"
 		(at 2.496429 2.19 0)
+		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f4a97ed8-28b1-4974-83a0-ba6932089c2a")
 		(effects
