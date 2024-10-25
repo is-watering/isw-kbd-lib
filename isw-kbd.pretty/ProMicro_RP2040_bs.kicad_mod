@@ -1,4 +1,4 @@
-(footprint "ProMicro_RP2040"
+(footprint "ProMicro_RP2040_bs"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Promicro RP2040"
+	(property "Value" "Promicro RP2040_back side"
 		(at 0 -17.78 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -3258,7 +3258,7 @@
 		)
 	)
 	(fp_text user "GP9"
-		(at 8.3075 21.349048 90)
+		(at 8.3075 20.587143 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e32593e7-f995-4b83-af76-d33aa32fdada")
