@@ -13,12 +13,15 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+*-brd.svg
 
 # Netlist files (exported from Eeschema)
 *.net
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
+*.frb
+*.rules
 *.ses
 
 # Exported BOM files
