@@ -1,0 +1,80 @@
+(footprint "M2_SpacerHole_EdgeCuts"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.2mm, no annular, M2")
+	(tags "mounting hole 2.2mm no annular m2")
+	(property "Reference" "Ref**"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc4393f3-38e7-421e-abb1-77aab39e81ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M2_SpacerHole_EdgeCuts"
+		(at 0 -3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4fb4c0f-7592-4b62-87f9-42520d160489")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa614d43-93a1-4993-ae33-fc03b08564c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2a8509f-b232-46cd-837a-8ac9e7b4635a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1f276c6-7a2d-4fa0-b520-1294e6009c03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f4ad86c3-8aae-430a-a7e0-68fbb7d5f33b")
+	)
+)
