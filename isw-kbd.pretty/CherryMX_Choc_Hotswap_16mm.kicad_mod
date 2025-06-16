@@ -217,24 +217,24 @@
 		(uuid "fea68e07-e83b-405f-9d0e-7c3221ccd39b")
 	)
 	(fp_line
-		(start -8 -8.000042)
-		(end 8 -8.000042)
+		(start -8 -8)
+		(end 8 -8)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "B.Fab")
-		(uuid "4e76264c-51e1-4905-a4e9-c213ddb3657c")
+		(uuid "0508266a-6434-46f0-a2a6-1598a8c00d26")
 	)
 	(fp_line
-		(start -8 8.000042)
-		(end -8 -8.000042)
+		(start -8 8)
+		(end -8 -8)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "B.Fab")
-		(uuid "f467d349-0f3f-4a29-bb99-9057ce9443cf")
+		(uuid "cf2ad1e1-57e8-40b3-83b4-65211de765dd")
 	)
 	(fp_line
 		(start -7 -7)
@@ -317,24 +317,24 @@
 		(uuid "77c3c532-fcd5-4926-9086-3ed946a6e5c9")
 	)
 	(fp_line
-		(start 8 -8.000042)
-		(end 8 8.000042)
+		(start 8 -8)
+		(end 8 8)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "B.Fab")
-		(uuid "9b64d539-2ea4-465a-8bc7-c3a4e03e17aa")
+		(uuid "20093fd9-1083-462a-9ff8-1b23e621c0c4")
 	)
 	(fp_line
-		(start 8 8.000042)
-		(end -8 8.000042)
+		(start 8 8)
+		(end -8 8)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "B.Fab")
-		(uuid "4a9560f8-a35f-494e-943d-e178b1e87d22")
+		(uuid "20bbb41e-3634-4424-ab90-a545b830c955")
 	)
 	(fp_text user "Choc"
 		(at -2 2.8 -25)
