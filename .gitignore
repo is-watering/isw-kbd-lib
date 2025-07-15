@@ -20,8 +20,6 @@ fp-info-cache
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
-*.frb
-*.rules
 *.ses
 
 # Exported BOM files
@@ -34,8 +32,8 @@ Thumbs.db
 
 # --------
 .vscode/
-logs/
+**/logs/
+hs_err_pid*
 *-backups/
 *_working*/
 gerber_to_order/
-
