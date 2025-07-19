@@ -1,0 +1,149 @@
+(footprint "Resistor_0805_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d2a6a7e9-d391-4f0f-ba9b-60501ae91ba5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Resistor_0805_SMD"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "326c4b97-84ca-4add-98fa-735ff86c18a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98b4bf5f-16b6-4faa-b11e-7685acc40977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5084b7a-b63d-45db-83c9-bebd9850da47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2bdb927-6384-45a0-896c-ce6adf531417")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.725 -0.825)
+		(end 1.725 -0.825)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "1c577c4c-397b-4144-aa1b-0b304c547ac4")
+	)
+	(fp_line
+		(start -1.725 0.825)
+		(end -1.725 -0.825)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "081c6fe8-8f0f-4e4c-af83-e61a9e52abea")
+	)
+	(fp_line
+		(start -1.725 0.825)
+		(end 1.725 0.825)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "2c78e7ad-b705-458a-8a52-8760fa220409")
+	)
+	(fp_line
+		(start 1.725 0.825)
+		(end 1.725 -0.825)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "427cf7f4-bb50-423a-a4bd-06c4bc5ffc16")
+	)
+	(fp_rect
+		(start -1.9 -1)
+		(end 1.9 1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "ddf026db-b186-4e96-861d-c35c616ecef0")
+	)
+	(fp_text user "${REFERENCE}_${VALUE}"
+		(at 0 -1.6 0)
+		(layer "B.SilkS")
+		(uuid "0476bfce-3b8e-4d8d-baab-8d8e92d350f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 0)
+		(size 1.2 1.4)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "212ecc64-6a70-42e1-8ec2-f4f914091996")
+	)
+	(pad "2" smd roundrect
+		(at 1 0)
+		(size 1.2 1.4)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(roundrect_rratio 0.208333)
+		(uuid "d8d08527-bcab-41f8-9e9d-5d7f7558fbda")
+	)
+)
