@@ -1,4 +1,4 @@
-(footprint "CherryMX_Hotswap_1u"
+(footprint "CherryMX_GLP3.0_Hotswap_1u"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -310,8 +310,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0 90)
-		(size 4 4)
-		(drill 4)
+		(size 5 5)
+		(drill 5)
 		(layers "F&B.Cu")
 		(uuid "032bf55b-d11b-4179-80e8-8ea2d3af82e3")
 	)
